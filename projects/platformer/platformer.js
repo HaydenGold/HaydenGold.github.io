@@ -68,6 +68,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
     createCollectable("database", 15, 410, 20, 1)
+    createCollectable("max", ) 
 
     // TODO 3
     // Create cannons
