@@ -29,10 +29,10 @@ $(function () {
      */
 
     // for (let i = 100; i < canvas.width; i += 100) {
-    //   createPlatform(i, canvas.height, -1, -canvas.height);
+    //  createPlatform(i, canvas.height, -1, -canvas.height);
     // }
     // for (let i = 100; i < canvas.height; i += 100) {
-    //   createPlatform(canvas.width, i, -canvas.width, -1);
+    // createPlatform(canvas.width, i, -canvas.width, -1);
     // }
 
     /////////////////////////////////////////////////
@@ -77,8 +77,8 @@ $(function () {
 
     createCannon("bottom", 100, 1000);
     createCannon("bottom", 250, 500);
-    createCannon("right", 300, 800);
-    createCannon("top", 800, 1000)
+    createCannon("right", 300, 875);
+    createCannon("top", 800, 1000);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
