@@ -32,7 +32,7 @@ var init = function (window) {
     // TODO 3 / 7 : Call the drawCircle() function
 
     var loopsCompleted = 0;
-    while (loopsCompleted < 100) {
+    while (loopsCompleted < 500) {
       drawCircle()
       loopsCompleted++;
     }
@@ -57,7 +57,7 @@ var init = function (window) {
 
       
 
-      for (var i = 0; i < 100; i++) {
+      for (var i = 0; i < 500; i++) {
         physikz.updatePosition(circles[i])
         game.checkCirclePosition(circles[i])
       }
